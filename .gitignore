@@ -1,0 +1,43 @@
+
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+.wrangler/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor configuration
+.vscode/
+.idea/
+.claude/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and test output
+*.log
+coverage/
+playwright-report/
+test-results/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local recordings and generated clips
+analysis/
+clips/
+downloads/*
+!downloads/README.txt
+*.mp4
+*.mov
+*.mkv
+*.zip
